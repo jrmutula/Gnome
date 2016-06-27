@@ -1,0 +1,403 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body{
+  background-color:#E0DAD8;
+}
+
+.row{
+margin-left: 30px;
+}
+
+/*
+TITLES WITH IMAGES
+*/
+/*
+<!--TITLE WITH IMAGE TO RIGHT-->
+*/
+.row-2{
+background-color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.grid-2{
+padding-left:30px;
+padding-right:30px;
+margin-bottom: 15px;
+}
+
+.write-left-col-2-3{
+  text-align: left;
+width: 66.66%;
+    float: left;
+}
+
+.image-right-col-1-3{
+width: 33.33%;
+text-align: center;
+}
+
+.lip{
+  float: right;
+}
+
+.image-right{
+    float: 
+
+}
+
+/*
+<!--IMAGE WITH WRITING TO THE RIGHT-->
+*/
+.row-3{
+  background-color:white;
+    line-height: 50px;
+}
+.grid-3{
+  padding-left:30px;
+  padding-right:30px;
+  margin-bottom: 15px;
+}
+.image-left-col-1-3{
+  float:
+}
+
+.image-left{
+    float: 
+}
+.Writing-right{
+  text-align:left;
+    float: right;
+}
+
+.topography{
+  color: black;
+  font-size: 30px;
+  padding-left: 0;
+  text-align: right;
+}
+
+.lebron{
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    padding-left: 20px;
+}
+
+.messi{
+    text-align: right;
+    font-size: 30px;
+    color: black;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.leo{
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size:27px;
+    color: silver;
+    border: 420px;
+}
+
+/*
+LAPTOP PIC
+*/
+.laptop img{
+  display:block;
+  height:600px;
+  width:1290px;
+  margin-bottom:20px;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  background:
+  color:
+
+}
+
+/*
+row
+*/
+.beglin{
+  background-color: white;
+    margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+height:225px;
+    
+}
+.row,
+.col-1-3{
+padding-left: 30px;
+padding-right: 30px;
+display: inline-block;
+vertical-align: top;
+}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+.grid,
+.col-1-3{
+padding-left: 30px;
+padding-right: 30px;
+display: inline-block;
+vertical-align: top;
+padding-left: px;
+padding-right:-10px;
+
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+a{
+  color: silver;
+}
+
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+.btn {
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-transform:
+}
+.btn-default {
+  border: 0;
+  background:black;
+  padding: 11px 30px;
+  font-size: 30px;
+}
+.btn-default:hover {
+  background:black;
+}
+.btn-alt {
+  background-color: black;
+  border: 3px solid grey;
+  padding: 5px 15px;
+}
+.btn-alt:hover {
+  background: #008000;
+  color: #fff;
+}
+
+/*
+  ========================================
+  HEADER
+  ========================================
+*/
+
+.logo {
+  float: left;
+  font-size: 70px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 50px;
+  padding: 30px 0 30px 0;
+  text-transform: uppercase;
+}
+ 
+.tagline {
+  margin: 66px 0 22px 0;
+  text-align: right;
+}
+
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+.footer {
+  color: yellow;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 44px;
+  text-align: center;
+  background-color: #242833;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 70px;
+}
+
+/*
+BLOG POST
+*/
+.blog{
+  background-color:white;
+margin-bottom: 15px;
+height:170px;
+}
+
+.big{
+  font-size: 20px;
+  color: silver;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.topography-3{
+  font-size: 30px;
+  padding-left:15px
+}
+/*
+ADVERT
+*/
+.Advert{
+  text-align: center;
+  line-height: 70px;
+  font-size:20px;
+background-color: lime;
+color:white;
+font-size: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+/*
+PARAGRAPH
+*/
+.paragraph{
+  background-color: white;
+  line-height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head{
+  font-size: 40px;
+color: black;
+padding-left: 20px;
+text-align: left;
+line-height: 30px;
+}
+
+.boss{
+  color: silver;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+/*
+EDITABLE VERSATILE PROFESSIONAL
+*/
+.topography-2{
+  font-size:37px;
+  color:black;
+}
+
+.bigger{
+  font-size:27px;
+ color: silver;
+    padding: 20px;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.nav {
+  color: silver;
+  text-align: right;
+  padding-top:-20px;
+  padding-right: 15px;
+  position:relative;
+  background-color:#242833;
+  margin-top: -5px;
+}
+.nav li{
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav:last-child {
+  margin-right: 0;
+}
+
+
+
+
+.img {
+ float: right;
+ margin-bottom: ;
+ padding-right:-1000px;
+ width: 800px;
+}
